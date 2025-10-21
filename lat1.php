@@ -1,13 +1,22 @@
 <?php 
-    echo "Belajar php";
-    echo '<br>';
-    echo'Saya Siswa SMK';
+    // echo "Belajar php";
+    // echo '<br>';
+    // echo'Saya Siswa SMK';
+    // echo'<h1 style="background-color:red">Belajar Php Itu mudah</h1>';
+    // echo'Saya belajar php'.'PHP'.'<br>';
+    // echo 'Tahun 2019'.'<br>';
+    // echo 2019 +2;
 
-    echo'<h1 style="background-color:red">Belajar Php Itu mudah</h1>';
+        $tulisan='Saya Belajar php';
 
-    echo'Saya belajar php'.'PHP'.'<br>';
+        echo $tulisan.'<br>';
 
-    echo 'Tahun 2019';
+        $angka= 2025;
+        echo 'Tahun '.$angka.'<br>';
+
+        var_dump($tulisan);
+        echo'<br>';
+        var_dump($angka);
 
 
 

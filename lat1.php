@@ -7,18 +7,26 @@
     // echo 'Tahun 2019'.'<br>';
     // echo 2019 +2;
 
-        $tulisan='Saya Belajar php';
+        // $tulisan='Saya Belajar php';
+        // echo $tulisan.'<br>';
+        // $angka= 2025;
+        // echo 'Tahun '.$angka.'<br>';
+        // var_dump($tulisan);
+        // echo'<br>';
+        // var_dump($angka);
 
-        echo $tulisan.'<br>';
+    function tulisan(){
+        echo 'Saya Belajar Php';
 
-        $angka= 2025;
-        echo 'Tahun '.$angka.'<br>';
+    }
+    tulisan();
+    echo '<br>';
 
-        var_dump($tulisan);
-        echo'<br>';
-        var_dump($angka);
-
-
+    function luaspersegi($p=5,$l=10){
+       
+        echo $luas=$p*$l;
+    }
+    luaspersegi(10,4);
 
 
 ?>

@@ -29,38 +29,92 @@
     // luaspersegi(10,4);
 
     // Fungsi IF
-                $nilai= 60;
+                // $nilai= 60;
                 
-                if ($nilai>=70) {
-                    echo 'Anda Lulus';
-                } else {
-                    echo 'Anda Tidak Lulus';
-                }
+                // if ($nilai>=70) {
+                //     echo 'Anda Lulus';
+                // } else {
+                //     echo 'Anda Tidak Lulus';
+                // }
 echo '<br>';
-                if ($nilai> 0 && $nilai<=100) {
-                    if ($nilai>=90) {
-                        echo 'A';
-                        }  
-                    else if ($nilai>=80 ){
-                        echo 'B';
-                        } 
-                     else if ($nilai>=70 ){
-                        echo 'C';
-                        }  
-                     else if ($nilai>=60 ){
-                        echo 'D';
-                        }   
-                    else {
-                        echo 'E';
-                        }
+                // if ($nilai> 0 && $nilai<=100) {
+                //     if ($nilai>=90) {
+                //         echo 'A';
+                //         }  
+                //     else if ($nilai>=80 ){
+                //         echo 'B';
+                //         } 
+                //      else if ($nilai>=70 ){
+                //         echo 'C';
+                //         }  
+                //      else if ($nilai>=60 ){
+                //         echo 'D';
+                //         }   
+                //     else {
+                //         echo 'E';
+                //         }
 
                    
-                }
-                else {
-                    echo 'Nilai Anda Tidak Valid';
-                }
+                // }
+                // else {
+                //     echo 'Nilai Anda Tidak Valid';
+                // }
                 
-                
+echo '<br>';
+                // Switch Case
+
+                $hari= 6;
+
+                switch ($hari) {
+                    case 1:
+                        echo 'Minggu';
+                        break;
+                    case 2:
+                        echo 'Senin';
+                        break;
+                    case 3:
+                        echo 'Selasa';
+                        break;
+                    case 4:
+                        echo 'Rabu';
+                        break;
+                    case 5:
+                        echo 'Kamis';
+                        break;
+                    case 6:
+                        echo 'Jumat';
+                        break;
+                    case 7:
+                        echo 'Sabtu';
+                        break;
+                    
+                    default:
+                        echo 'Tidak ada Nama hari lain';
+                        break;
+                }
+echo '<br>';
+            // Looping
+
+                for ($i=1; $i <=10 ; $i++) { 
+                    echo $i. ',';
+                    echo '<br>';
+                }
+
+                echo '<br>';
+
+                $a=1;
+                while ($a <= 10) {
+                    echo $a. '.';
+                $a++;
+                }
+
+                echo '<br>';
+
+                $b=1;
+                 do {
+                    echo $b. '.';
+                    $b++;
+                } while ($a <= 10);
 
 
 ?>
